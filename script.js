@@ -12,7 +12,7 @@ textInput.addEventListener('change',(e)=>{
 		delay=parseInt(e.target.value);
 })
 submit.addEventListener('click',(e)=>{
-	output.remove();
+	// output.remove();
 	setTimeout(()=>{
 		output.innerHTML=msg;
 		form.append(output);
